@@ -2,11 +2,11 @@ import React from "react";
 
 const Body = () => {
   return (
-    <section className="relative mt-[10%] w-full h-full flex">
+    <section className="relative mt-[10%] w-full h-full flex justify-around">
       <div className=" w-[50%] h-full">
-        <div className="absolute -z-10 w-full h-full">
+        <div className="absolute -z-10">
           <img
-            className=" w-[50%] h-full pl-[5%]"
+            className=" pl-[5%]"
             src="./image/imgHawaii1.png"
             alt="Hawaii"
           ></img>

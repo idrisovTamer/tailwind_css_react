@@ -2,7 +2,7 @@ import React from 'react'
 
 const Info = () => {
   return (
-    <section className="relative mt-[10%] w-full h-full flex">
+    <section className="relative mt-[10%] w-full h-full flex justify-around">
     
     <div className="flex flex-col mt-[1%] gap-6 pl-16 ">
       <h1 className="text-[42px] leading-[65px] font-extrabold">
@@ -15,10 +15,10 @@ const Info = () => {
       Читать отзывы
       </button>
     </div>
-    <div className=" w-[50%] h-full">
-        <div className="absolute -z-10 w-full h-full">
+    <div className=" w-[50%] h-full mr-[15%]">
+        <div className="absolute -z-10">
           <img
-            className=" w-[50%] h-full pl-[5%]"
+            className=" pl-[5%]"
             src="./image/imgHawaii2.png"
             alt="Hawaii2"
           ></img>

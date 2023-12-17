@@ -2,8 +2,8 @@ import React from 'react'
 
 const Footer = () => {
   return (
-  <section className='relative mt-[10%] w-full h-full flex'>
-    <div className='absolute -z-10 w-full h-full'>
+  <section className='relative pt-[10%] w-full h-full flex'>
+    <div className='absolute -z-10 '>
     <img className='w-auto h-auto' src='./image/imgForm1.png' alt='man'></img>
     </div>
     <div className='flex flex-row  pl-[40%] w-auto h-auto'>
