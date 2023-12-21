@@ -2,11 +2,11 @@ import React from "react";
 
 const Body = () => {
   return (
-    <section className="relative mt-[10%] w-full h-full flex justify-around">
-      <div className=" w-[50%] h-full">
-        <div className="absolute -z-10">
+    <section className=" lg:w-full lg:h-full lg:flex lg:flex-row flex-col sm:mt-[50px] md:mt-[70px] lg:mt-[150px] ">
+      <div className=" relative lg:w-[50%]  lg:h-full h-[270px]">
+        <div className="absolute -z-10 w-full h-full">
           <img
-            className=" pl-[5%]"
+            className=" lg:pl-[5%] w-full h-full"
             src="./image/imgHawaii1.png"
             alt="Hawaii"
           ></img>
@@ -17,7 +17,7 @@ const Body = () => {
             <br />
             апреля
           </p>
-          <div className=" pt-[230px]">
+          <div className=" lg:pt-[230px] lg:pb-[20px] pt-[130px]">
             <p className=" text-cyan-50">
               Большое ущелье <br />
               на острове Гавайи
@@ -25,16 +25,16 @@ const Body = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col mt-[1%] gap-6 pl-16 ">
-        <h1 className="text-[42px] leading-[65px] font-extrabold">
+      <div className="flex flex-col mt-[1%] lg:gap-6 lg:pl-16 ml-12 sm:justify-center ">
+        <h1 className="sm:text-[42px] sm:leading-[65px] sm:font-extrabold  text-[30px] leading-10 font-normal'">
           Посмотрите все <br /> направления туров
         </h1>
-        <p className="font-normal leading-[40px] text-[18px]">
+        <p className="font-normal sm:leading-[40px] sm:text-[18px] text-[12px] ml-2">
           Берега океанов и дикие пляжи с редкими <br />
           породами деревьев. Местная архитектура и <br />
           первозданный вид дикой природы
         </p>
-        <button className="w-[271px] h-[75px] rounded-[38px] border-[2px] border-cyan-500 text-cyan-500 focus:hover:bg-black text-[20px] font-semibold  ">
+        <button className="sm::w-[271px] sm:h-[75px] rounded-[38px] border-[2px] border-cyan-500 text-cyan-500 focus:hover:bg-black lg:text-[20px] lg:font-semibold mt-2 w-[250px] h-[40px]">
           Смотреть все
         </button>
       </div>
