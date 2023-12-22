@@ -8,7 +8,7 @@ const Footer = () => {
     <img className='w-full h-full' src='./image/imgForm1.png' alt='man'></img>
     </div>
     </div>
-    <div className='lg:flex lg:justify-center lg;w-auto lg:h-auto lg:pb-24 lg:pl-[380px]'>
+    <div className='lg:flex lg:justify-center lg:w-auto lg:h-auto lg:pb-24 lg:pl-[380px]'>
       <div className=' lg:pt-[45px] pl-[35px]'>
     <h6 className='sm:text-[42px] sm:leading-[65px] sm:font-extrabold  text-[30px] leading-10 font-normal'>Оставьте заявку <br/>на бесплатную<br/> консультацию</h6>
     <p className='text-[18px] leading-[32px] font-normal lg:pt-8 pt-3'>Мы перезвоним вам <br/>в ближайшее время</p>
