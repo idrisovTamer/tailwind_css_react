@@ -21,7 +21,7 @@ const Contacts = () => {
 
     <div className='mx-auto'>
 
-    <p>Телефон</p>
+    <p>Телефонн</p>
     <p>+799999999</p>
     <p>+793242354</p>
 
