@@ -6,7 +6,7 @@ const Header = () => {
     <section className=" w-full h-full relative">
        <div className="absolute -z-10 w-full sm:h-full h-[270px] ">
          
-          <img className="w-full h-full bg-center bg-auto	"  src="./image/imgBackground1.png" alt="island" />
+          <img className="w-full h-full bg-center bg-auto	" src={`${process.env.PUBLIC_URL}/image/imgBackground1.png`} alt="island" />
         </div>
       <div className="flex  flex-col pl-8 justify-between gap-2 lg:pb-40 pb-24">
       <Navbar/>

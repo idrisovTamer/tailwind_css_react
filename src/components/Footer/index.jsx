@@ -5,7 +5,7 @@ const Footer = () => {
   <section className='lg:relative pt-[50px] sm:mt-[50px] md:mt-[70px] lg:mt-[150px] lg:w-full lg:h-full lg:flex flex-col'>
     <div className=''>
     <div className='lg:absolute lg:-z-10 lg:w-full lg:h-full h-[270px]'>
-    <img className='w-full h-full' src='./image/imgForm1.png' alt='man'></img>
+    <img className='w-full h-full' src={`${process.env.PUBLIC_URL}/image/imgForm1.png`} alt='man'></img>
     </div>
     </div>
     <div className='lg:flex lg:justify-center lg:w-auto lg:h-auto lg:pb-24 lg:pl-[380px]'>

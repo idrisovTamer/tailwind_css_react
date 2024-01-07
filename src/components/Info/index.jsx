@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Info = () => {
   return (
@@ -13,15 +14,15 @@ const Info = () => {
           рекомендации от друзей. А каждый 4-ый <br />
           путешествует с нами более двух раз!
         </p>
-        <button className="sm::w-[271px] sm:h-[75px] rounded-[38px] border-[2px] border-cyan-500 text-cyan-500 focus:hover:bg-black lg:text-[20px] lg:font-semibold mt-2 w-[250px] h-[40px] ">
+        <Link to="/reviews"><button className="sm::w-[271px] sm:h-[75px] rounded-[38px] border-[2px] border-cyan-500 text-cyan-500 focus:hover:bg-black lg:text-[20px] lg:font-semibold mt-2 w-[250px] h-[40px] ">
           Читать отзывы
-        </button>
+        </button></Link>
       </div>
       <div className="relative lg:w-[50%] lg:h-full pt-[20px] h-[270px] ">
         <div className="absolute -z-10 w-full h-full">
           <img
             className=" lg:pl-[5%] w-full h-full"
-            src="./image/imgHawaii2.png"
+            src={`${process.env.PUBLIC_URL}/image/imgHawaii2.png`}
             alt="Hawaii2"
           ></img>
         </div>
