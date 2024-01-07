@@ -27,7 +27,7 @@ const Contacts = () => {
 
     </div>
     </div>
- <Link to='/'><button className='absolute text-red-500 top-0 left-0'>Назад</button></Link>
+ <Link to='/tailwind_css_react'><button className='absolute text-red-500 top-0 left-0'>Назад</button></Link>
   </div>
   </>
   )
